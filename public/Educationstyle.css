@@ -17,7 +17,7 @@ h1 {
 
 
 h1:after {
-  width: 100px;
+  width: 50px;
   height: 1px;
   display: block;
   content: "";
