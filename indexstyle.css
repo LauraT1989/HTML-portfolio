@@ -47,15 +47,43 @@ li {
 
 .links li a {
   color: #e0c097; 
-   font-family: "Georgia", sans-serif;  
+   font-family: "Georgia", sans-serif; 
+     font-size: 1.1rem;
+  padding: 0.3rem 0.8rem;
+  transition: color 0.3s, border-bottom 0.3s;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  color: #fffbe6;           /* parchment glow */
+  border-bottom: 2px solid #8b6f47; /* bronze underline */
 }
 
 h3 a {
-    text-align: center;
     color: #e0c097;
 }
 
 h4 a {
   text-align: center;
     color: #e8e2da;
+}
+
+.links_bottom a {
+  text-decoration: none;
+  color: #e0c097;           /* warm gold tone */
+  font-family: "Georgia", serif;
+  font-size: 1.1rem;
+  padding: 0.3rem 0.8rem;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+.links_bottom a:hover {
+  color: #fffbe6;           /* parchment glow */
+  border-bottom: 2px solid #8b6f47; /* bronze underline */
+}
+
+.links_bottom {
+  display: inline-table ;
+  justify-content: center; 
+  gap: 5rem;               
+  width: 100%;             
 }
