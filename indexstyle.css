@@ -1,0 +1,61 @@
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Georgia", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #da8d29;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  line-height: 1em;
+}
+
+h1:after {
+  width: 500px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: center;
+  margin-top: 25px;
+  left: 50%;
+  margin-left:40px;
+  background-color: #eeeefa;
+}
+
+h2{
+text-align: center;
+ font-family: "Georgia", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+}
+
+body {
+  background: #1a1a1a;
+  color: #d9d4c7;
+  font-family: 'Georgia', serif;
+}
+li {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+  list-style-type: square;
+}
+
+.links li a {
+  color: #e0c097; 
+   font-family: "Georgia", sans-serif;  
+}
+
+h3 a {
+    text-align: center;
+    color: #e0c097;
+}
+
+h4 a {
+  text-align: center;
+    color: #e8e2da;
+}
