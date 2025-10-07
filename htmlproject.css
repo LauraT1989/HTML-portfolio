@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+  
+h1 {
+  position: relative;
+  padding: 10px;
+  margin: 0;
+  font-family: "Georgia", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #da8d29;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  line-height: 1em;
+  text-align: center;
+}
+
+h1:after {
+  width: 500px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: center;
+  margin-top: 20px;
+  left: 50%;
+  margin-left:40px;
+  background-color: #02020d;
+}
+
+body {
+  background: #1a1a1a;
+  color: #110d02;
+  font-family: 'Georgia', serif; 
+}
+
+.column1 {
+  display: flex;
+  height: 700px;
+  flex-direction: row;
+ flex-wrap: wrap;
+
+ 
+}
+
+.column2{
+    border: black solid;
+       display: inline-flex;
+      flex-direction: row;
+ flex-wrap: wrap;
+ width: 10%;
+ position:relative;
+ background-color: #da8d29;
+    box-shadow:inset 5px 25px 30px 8px rgb(29, 25, 4), inset -25px -5px 25px 8px rgb(196, 194, 181,1);
+}
+.column3 {
+    display: inline-flex;
+      flex-direction: row;
+ flex-wrap: wrap;
+ width: 80%;
+ position:relative;
+ background-color: aqua;
+}
+
+#link1{
+    position:absolute;
+    left:50px;
+}
+
+.cake {
+    position:relative;
+    top:80px;
+    height: 500px;
+}
+
+#link2{
+    position:relative;
+    left: 250px;
+}
+
+.movies{
+    position:relative;
+    top:80px;
+    height: 250px;
+}
+
+.column4{
+       display: inline-flex;
+      flex-direction: row;
+ flex-wrap: wrap;
+ width: 10%;
+ position:relative;
+ background-color: red
+}

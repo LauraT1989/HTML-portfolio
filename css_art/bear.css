@@ -1,0 +1,191 @@
+#bear {
+    background-color: black;
+    position: absolute;
+    width: 1000px;
+    height: 500px
+}
+
+
+#bear .head{
+    position: relative;
+    top: 50px;
+    left:100px;
+    border: solid rgb(54, 70, 125);
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(16, 16, 15);
+    box-shadow: inset 15px -15px 65px 25px rgba(22, 30, 185, 0.75), inset 15px -15px 65px 35px rgba(222, 223, 229, 0.75)
+}
+
+#bear .ear1 {
+    position: absolute;
+    top:64px;
+    left: 75px;
+    border: solid  rgb(29, 73, 175);
+    border-radius: 50px 50px 25px 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 20, 19);
+    border-left-style:double;
+    transform: rotate(-50deg);
+    box-shadow: inset 9px -11px 13px 10px rgba(22, 30, 185, 0.75), inset 3px -1px 15px 1px rgba(7, 10, 169, 0.75), inset -7px 15px 2px 15px rgba(231, 232, 229, 0.75), 5px 5px 15px 1px rgba(2, 5, 34, 0.847),15px 8px 55px 15px rgba(231, 232, 229, 0.75);
+}
+
+#bear .ear2 {
+    position:absolute;
+    top:64px;
+    left: 425px;
+    border: solid  rgb(42, 70, 135);
+    border-radius: 30px 50px 50px 25px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(18, 18, 17);
+    transform: rotate(-45deg);
+    box-shadow: inset 11px -9px 13px 10px rgba(22, 30, 185, 0.75), inset -3px 1px 15px 1px rgba(7, 10, 169, 0.75), inset -15px 8px 5px 15px rgba(231, 232, 229, 0.75), -5px 0px 15px 1px rgba(2, 5, 34, 0.847),-15px -8px 55px 15px rgba(231, 232, 229, 0.75);
+}
+#bear  .eye1 {
+ position:absolute;
+ top:175px;
+ left:155px;
+ border: solid rgba(224, 223, 220, 0.5);
+ border-radius: 60px 3px 50px 50px;
+ width: 110px;
+ height: 90px; 
+transform:rotate(-10deg);
+box-shadow:  0px 0px 55px 15px rgba(243, 244, 245, 0.5), inset 2px 2px 18px 2px white;
+}
+
+#bear  .pupil1{
+ border: solid 1px;
+ border-radius: 100%;
+ width: 30px;
+ height: 25px; 
+ position: absolute;
+ top:210px;
+ left:210px;
+ box-shadow:  4px 0px 6px 15px rgba(22, 30, 185, 2.5), inset -1px -1em -0px -15px rgb(50, 141, 163), 0px 0px 5px 1px rgba(3, 7, 79, 0.5),  1px 2px 4px 20px white, 1px 5px 25px 5px rgb(60, 169, 76);
+}
+
+#bear  .eye2{
+ border: solid rgba(224, 223, 220, 0.5);
+ border-radius: 3px 60px 50px 50px;
+ width: 110px;
+ height: 90px; 
+ position: absolute;
+ top:175px;
+ left:340px;
+transform: rotate(10deg);
+box-shadow:   -2px -2px 35px 15px rgba(216, 219, 223, 0.5), inset 2px 2px 18px 2px white;
+}
+
+#bear  .pupil2{
+ border: solid ;
+ border-radius: 100%;
+ width: 30px;
+ height: 25px; 
+ position: absolute;
+ top:210px;
+ left:370px;
+ box-shadow:  -4px 0px 6px 15px rgba(22, 30, 185, 2.5), inset -1px -1em -0px -15px rgb(50, 141, 163), 0px 0px 5px 1px rgba(3, 7, 79, 0.5),  1px 2px 4px 20px white, 1px 5px 25px 5px rgb(60, 169, 76);
+}
+
+
+
+#bear  .nose{
+   border: solid rgb(129, 122, 159);
+ border-radius: 30px 80px 30px 0px;
+ width: 95px;
+ height: 95px; 
+  position: absolute;
+ top:230px;
+ left:25.5%;
+transform:rotate(-45deg);
+ box-shadow: inset 25px 18px 26px 15px rgb(10, 10, 143), inset 15px 0px 75px 15px rgb(211, 211, 219), 15px 0px 75px 15px rgb(211, 211, 219);
+}
+
+#bear  .upperlip1{
+border: solid rgb(178, 174, 197) 0.1rem;
+height: 20px; 
+  position: absolute;
+ top:349px;
+ left:30.4%;
+transform:rotate(-0deg);
+}
+
+#bear  .upperlip2{
+border: solid rgb(178, 174, 197)  0.1rem;
+height: 20px; 
+position: absolute;
+ top:367px;
+left: 31.4%;
+transform:rotate(-50deg);
+ box-shadow:  0px 0px 45px 15px rgb(185, 185, 219);
+}
+
+#bear  .upperlip3{
+border: solid rgb(178, 174, 197)  0.1rem;
+height: 20px; 
+position: absolute;
+ top:367px;
+left: 29.3%;
+transform:rotate(50deg);
+ box-shadow:  0px 0px 45px 15px rgb(185, 185, 219);
+}
+
+#bear .dot1{
+    border: solid rgb(178, 174, 197)  0.1rem;
+    width: 5px;
+    height:5px;
+    border-radius: 100%;
+position: absolute;
+ top:340px;
+left: 23%;
+}
+
+#bear .dot2{
+    border: solid rgb(178, 174, 197)  0.1rem;
+    width: 5px;
+    height:5px;
+    border-radius: 100%;
+position: absolute;
+ top:355px;
+left: 21%;
+}
+#bear .dot3{
+    border: solid rgb(178, 174, 197)  0.1rem;
+    width: 5px;
+    height:5px;
+    border-radius: 100%;
+position: absolute;
+ top:355px;
+left: 25%;
+}
+#bear .dot4{
+    border: solid rgb(178, 174, 197)  0.1rem;
+    width: 5px;
+    height:5px;
+    border-radius: 100%;
+position: absolute;
+ top:355px;
+left: 35%;
+}
+
+#bear .dot5{
+    border: solid rgb(178, 174, 197)  0.1rem;
+    width: 5px;
+    height:5px;
+    border-radius: 100%;
+position: absolute;
+ top:340px;
+left: 37%;
+}
+#bear .dot6{
+    border: solid rgb(178, 174, 197)  0.1rem;
+    width: 5px;
+    height:5px;
+    border-radius: 100%;
+position: absolute;
+ top:355px;
+left: 39%;
+}
