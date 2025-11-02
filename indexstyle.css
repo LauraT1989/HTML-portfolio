@@ -1,10 +1,10 @@
 h1 {
   position: relative;
   padding: 0;
-  margin: 0;
+  margin-top: 80px;
   font-family: "Georgia", sans-serif;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 100px;
   color: #da8d29;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -13,6 +13,7 @@ h1 {
   text-transform: capitalize;
   letter-spacing: 4px;
   line-height: 1em;
+  
 }
 
 h1:after {
@@ -21,10 +22,9 @@ h1:after {
   display: block;
   content: "";
   position: center;
-  margin-top: 25px;
+  margin-top: 0px;
   left: 50%;
   margin-left:40px;
-  background-color: #02020d;
 }
 
 h2{
@@ -32,6 +32,7 @@ text-align: center;
  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
   letter-spacing: 4px;
+  margin-bottom: 50px;
 }
 
 body {
@@ -82,8 +83,12 @@ h4 a {
 }
 
 .links_bottom {
-  display: inline-table ;
-  justify-content: center; 
-  gap: 5rem;               
+  display: inline-flex ;
+  justify-content: left; 
+  gap: 2rem;               
   width: 100%;             
+}
+
+.html_logo {
+  width: 50px;
 }
