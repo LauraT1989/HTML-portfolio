@@ -68,8 +68,8 @@ h4 a {
   text-align: center;
     color: #e8e2da;
 }
-
-.links_bottom a {
+/*links to projects CSS */
+.container1 a {
   text-decoration: none;
   color: #e0c097;           /* warm gold tone */
   font-family: "Georgia", serif;
@@ -77,18 +77,38 @@ h4 a {
   padding: 0.3rem 0.8rem;
   transition: color 0.3s, border-bottom 0.3s;
 }
-.links_bottom a:hover {
+.container1 a:hover {
   color: #fffbe6;           /* parchment glow */
   border-bottom: 2px solid #8b6f47; /* bronze underline */
 }
 
-.links_bottom {
-  display: inline-flex ;
-  justify-content: left; 
-  gap: 2rem;               
-  width: 100%;             
+
+
+
+
+/* Coding images and tooltips*/
+
+ .tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
-.html_logo {
-  width: 50px;
+  .tooltiptext {
+  visibility: hidden; /* Hidden by default */
+  width: 180px;
+  background-color: rgb(41, 24, 117, 00.7rem);
+  color: #e8e2da;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px 0;
+  border-radius: 6px;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
