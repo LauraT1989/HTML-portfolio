@@ -68,19 +68,17 @@ h4 a {
   text-align: center;
     color: #e8e2da;
 }
+
 /*links to projects CSS */
 .container1 a {
   text-decoration: none;
-  color: #e0c097;           /* warm gold tone */
+  color: #e0c097;         
   font-family: "Georgia", serif;
   font-size: 1.1rem;
   padding: 0.3rem 0.8rem;
   transition: color 0.3s, border-bottom 0.3s;
 }
-.container1 a:hover {
-  color: #fffbe6;           /* parchment glow */
-  border-bottom: 2px solid #8b6f47; /* bronze underline */
-}
+
 
 
 
@@ -104,11 +102,17 @@ h4 a {
   font-size: 10px;
   padding: 5px 0;
   border-radius: 6px;
-  transform: translateX(-50%);
+  transform: translateX(-30%);
   position: absolute;
   z-index: 1; /* Ensure tooltip is displayed above content */
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext  {
   visibility: visible;
 }
+
+.tooltiptext a {
+  color: white;
+font-size: 10px;
+}
+
