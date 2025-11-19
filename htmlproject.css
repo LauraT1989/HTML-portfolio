@@ -9,17 +9,9 @@
 }
 
 .container a:hover {
-  background: #1565C0;
+  background: #234f88;
 }
-
-
-
-
-
-/* {
-  box-sizing: border-box;
-}
-  
+/*title format*/
 h1 {
   position: relative;
   padding: 10px;
@@ -27,7 +19,9 @@ h1 {
   font-family: "Georgia", sans-serif;
   font-weight: 500;
   font-size: 50px;
-  color: #da8d29;
+   background : -webkit-linear-gradient(#bf7b23, #ece8e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
@@ -47,23 +41,29 @@ h1:after {
   margin-top: 20px;
   left: 50%;
   margin-left:40px;
-  background-color: #02020d;
+  background-color: transparent;
 }
 
 body {
-  background: #1a1a1a;
+  background: linear-gradient(180deg, #020024 0%, #090979 35%, #00d4ff 100%);
   color: #110d02;
   font-family: 'Georgia', serif; 
 }
 
 .column1 {
   display: flex;
-  height: 700px;
-  flex-direction: row;
- flex-wrap: wrap;
-
- 
+  flex-direction: column;
+  color: aliceblue;
 }
+/* {
+  box-sizing: border-box;
+}
+  
+
+
+
+
+
 
 .column2{
     border: black solid;
