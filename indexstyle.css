@@ -1,24 +1,33 @@
-h1 {
+
+.links  {
+display: inline-flex;
+flex-direction: row;
+justify-content:right;
+align-content: end;
+list-style-type:none
+}
+
+h2 {
   position: relative;
   padding: 0;
   margin-top: 80px;
   font-family: "Georgia", sans-serif;
   font-weight: 500;
-  font-size: 100px;
-  background : -webkit-linear-gradient(#bf7b23, #ece8e8);
+  font-size: 80px;
+  background : -webkit-linear-gradient(#0b706b, #ece8e8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   text-align: center;
-  text-transform: capitalize;
+  text-transform:initial;
   letter-spacing: 4px;
   line-height: 1em;
 
 }
 
-h1:after {
+h2:after {
   width: 500px;
   height: 1px;
   display: block;
@@ -30,7 +39,18 @@ h1:after {
 
 }
 
-h2{
+#mypic {
+  margin-top: 100px;
+  border-radius: 10%;
+  align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 10%;
+  border-image: url("/assets/images/photo2.png") 27 25 / 5px 3px / 1rem round space;
+}
+h3{
 text-align: center;
  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
@@ -40,22 +60,18 @@ text-align: center;
 }
 
 body {
-  background: linear-gradient(180deg, #020024 20%, #090979 40%, #00d4ff 100%);
+  background: linear-gradient(180deg, rgb(15, 8, 0) 35%, #022103 60%, #495355 100%);
   color: #e0dcd4;
   font-family: 'Georgia', serif;
 }
 
-li {
-  margin: 0.5rem 0;
-  padding-left: 1rem;
-  list-style-type: square;
 
-}
+
 
 .links li a {
-  color: #e0c097; 
+  color: #e3e0d5; 
    font-family: "Georgia", sans-serif; 
-     font-size: 1.1rem;
+     font-size: 10px;
   padding: 0.3rem 0.8rem;
   transition: color 0.3s, border-bottom 0.3s;
   text-decoration: none;
@@ -63,7 +79,7 @@ li {
 
 .links li a:hover {
   color: #fffbe6;           /* parchment glow */
-  border-bottom: 2px solid #8b6f47; /* bronze underline */
+  border-bottom: 2px solid #d8d2c9; /* bronze underline */
 }
 
 h3 a {
@@ -86,7 +102,11 @@ h4 a {
 }
 
 
-
+hr {
+ border-color:rgb(231, 238, 238); 
+ border-style:solid;
+  box-shadow: 0px 0px 10px 1px rgb(230, 235, 235);
+}
 
 
 
