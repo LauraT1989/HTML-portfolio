@@ -1,79 +1,77 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link
-    />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LT.dev</title> 
-<link rel="stylesheet" href="./indexstyle.css" /> 
+    <title>LT.dev | Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
-<div>
- <ul>
-<h4 class="links" >
-    <li><a href="./public/about.html">About me</a></li>
-    <li><a href="./public/Education.html">Education</a></li>
-    <li><a href="./public/WorkExperience.html">Work Experience</a></li>
-    <li><a href="./public/AwardsandCerts.html">Awards and Certifications</a></li></h4>
-</ul>
-</div> 
 
-    <body>
-         <h2>Developer Portfolio</h2>
-        <img id="mypic" src="assets/images/photo2.png"/>
-       <h3>Hello, I am Laura Tomasi</h3>
-        
-    </body>
+<body>
+
+<header class="navbar">
+    <nav>
+        <ul class="nav-list">
+            <li><a href="./public/about.html">About Me</a></li>
+            <li><a href="./public/Education.html">Education</a></li>
+            <li><a href="./public/WorkExperience.html">Experience</a></li>
+            <li><a href="./public/AwardsandCerts.html">Awards & Certs</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <img id="mypic" src="assets/images/photo2.png" alt="Photo of Laura Tomasi">
+    <div class="hero-text">
+        <h1>Laura Tomasi</h1>
+        <h2>Developer Portfolio</h2>
+        <p>HTML • CSS • JavaScript • Splunk Engineering</p>
+    </div>
+</section>
+
+<main>
+
+    <section class="projects">
+        <h2 class="section-title">Projects by Language</h2>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <img src="assets/images/code.png" alt="HTML logo" class="project-icon">
+                <h3><a href="htmlpage.html">HTML</a></h3>
+                <p>Layouts, semantic markup & beginner-to-advanced web pages.</p>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/images/css-coding.png" alt="CSS logo" class="project-icon">
+                <h3><a href="cssproject.html">CSS</a></h3>
+                <p>Responsive design, animations & styling systems.</p>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/images/javascript.png" alt="JavaScript logo" class="project-icon">
+                <h3><a href="javascript.html">JavaScript</a></h3>
+                <p>Interactive pages, DOM manipulation & web logic.</p>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/images/splunk.svg" alt="Splunk logo" class="project-icon">
+                <h3><a href="splunk.html">Splunk</a></h3>
+                <p>Dashboards, automation, monitoring & ITSI service analysis.</p>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>
+        <a href="./public/contact.html">Contact Me</a> |
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+</footer>
+
+</body>
 </html>
-   
-
-
-
- <div class="container1" style="display: flex; flex-direction: row; justify-content:space-around; align-items: center; gap:50px">
-
-
-    <div class="project html" style="display: flex; flex-direction: column; align-items: center;">
-        <div class="tooltip">
-    <img  rel="icon" type="image/x-icon" id="html_logo" src="assets/images/code.png" width="50" alt="HTML logo"> 
-     <span class="tooltiptext"><a href="https://www.flaticon.com/free-icons/coding" title="coding icons">
-            meaicon - Flaticon
-        </a> 
-        </span> 
-        </div>
-     <h3><a  href="htmlpage.html" >HTML</a></h3>
-    </div>
-
-    <div class="project css" style="display: flex; flex-direction: column; align-items: center;">
-        <div class="tooltip">
-        <img  src="assets/images/css-coding.png" width="50"  alt="CSS logo">
-        <span class="tooltiptext"><a  href="https://www.flaticon.com/free-icons/seo-and-web" title="seo and web icons">Muhammad Atif - Flaticon</a></span> 
-        </div>
-        <h3><a  href="cssproject.html">CSS</a></h3>
-    </div>
-    
-    <div class="project js" style="display: flex; flex-direction: column; align-items: center;">
-        <div class="tooltip">
-        <img  src="assets/images/javascript.png" width="50"  alt="Javascript logo">
-        <span class="tooltiptext"><a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Muhammad Ali - Flaticon</a></span> 
-        </div>
-        <h3><a href="javascript.html">Javascript</a></h3>
-    </div>
-
-    <div class="project splunk" style="display: flex; flex-direction: column; align-items: center;">
-        <div class="tooltip">
-        <img  src="assets/images/splunk.svg" width="50"  alt="Splunk logo">
-        <span class="tooltiptext">Splunk Inc.</a></span> 
-        </div>
-        <h3><a href="splunk.html">Splunk</a></h3>
-    </div>
-
-
-    
-
-   
-   </div>
-<hr />
-
-<h4 style="display: inline-block"><a href="./public/contact.html">Contact me</a> <a href="htmlproject.html">LinkedIn</a></h4>
-
