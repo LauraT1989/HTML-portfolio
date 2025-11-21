@@ -45,7 +45,7 @@ h1:after {
 }
 
 body {
-  background: linear-gradient(180deg, #020024 0%, #090979 35%, #00d4ff 100%);
+background: linear-gradient(180deg,  #37353E 38%, #44444E 60%, #715A5A 90% );
   color: #110d02;
   font-family: 'Georgia', serif; 
 }
@@ -55,9 +55,8 @@ body {
   flex-direction: column;
   color: aliceblue;
 }
-/* {
-  box-sizing: border-box;
-}
+
+/* 
   
 
 

@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg,  #37353E 38%, #44444E 60%, #715A5A 90% );
+  color: #dfdcd4;
+  font-family: 'Georgia', serif; 
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+h1 {
+  position: relative;
+  padding: 10px;
+  margin: 0;
+  font-family: "Georgia", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+   background : -webkit-linear-gradient(#bf7b23, #ece8e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  line-height: 1em;
+  text-align: center;
+}
+
+h1:after {
+  width: 500px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: center;
+  margin-top: 20px;
+  left: 50%;
+  margin-left:40px;
+  background-color: transparent;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.thumb {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  gap: .5rem;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.tags li {
+  background: #ececec;
+  padding: .3rem .7rem;
+  border-radius: 8px;
+  font-size: .8rem;
+}
+
+.buttons {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  text-decoration: none;
+  padding: .6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn.live {
+  background: black;
+  color: white;
+}
+
+.btn.code {
+  border: 2px solid black;
+  color: black;
+}
+
+
+css
+Copy code
+body {
+  background: #0e0b11;
+  color: #e6e1d5;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.project-card {
+  background: #1a141f;
+  border: 1px solid #3a2e46;
+  box-shadow: 0 0 25px rgba(80, 0, 150, 0.25);
+}
+
+.btn.live {
+  background: #4d2e72;
+}
+
+.btn.code {
+  border-color: #7c5ea2;
+  color: #c7b7e5;
+}
+
+.tags li {
+  background: #2a2133;
+}
