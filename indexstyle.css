@@ -14,7 +14,7 @@ h2 {
   font-family: "Georgia", sans-serif;
   font-weight: 500;
   font-size: 80px;
-  background : -webkit-linear-gradient(#0b706b, #ece8e8);
+  background : -webkit-linear-gradient(#37353E, #ece8e8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.4s ease 0s;
@@ -48,7 +48,10 @@ h2:after {
   margin-right: auto;
   margin-bottom: 40px;
   width: 10%;
-  border-image: url("/assets/images/photo2.png") 27 25 / 5px 3px / 1rem round space;
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+    border-image: url("/assets/images/photo2.png") 27 25 / 5px 3px / 1rem round space;
+
 }
 h3{
 text-align: center;
@@ -60,7 +63,7 @@ text-align: center;
 }
 
 body {
-  background: linear-gradient(180deg, rgb(15, 8, 0) 35%, #022103 60%, #495355 100%);
+  background: linear-gradient(180deg,  #37353E 38%, #44444E 60%, #715A5A 90% );
   color: #e0dcd4;
   font-family: 'Georgia', serif;
 }
